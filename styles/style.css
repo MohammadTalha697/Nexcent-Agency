@@ -1,0 +1,80 @@
+/* Google Font API*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+header{
+    background-color: #f5f7fa;
+    position: sticky;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;  
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
+.nav{
+    min-width: 600px;
+}
+.nav-items{
+    color: black;
+    margin: 0;
+    font-weight: 600;
+}
+#loginButton{
+    color: #4CAF4F;
+}
+#signupButton{
+    background-color: #4CAF4F;
+}
+#hero{
+    min-height: calc(100vh - 112px);
+    background-color: #f5f7fa;
+}
+.register{
+    background-color: #4eda52;
+    color: rgb(5, 83, 51);
+    transition: all 0.2s ease-in; 
+}
+.register:hover{
+    color: white;
+    background-color: #449c47;
+    box-shadow: 0px 0px 20px rgba(76, 175, 79, 0.708);
+    transform: scale(1.1);
+}
+#clients{
+    min-height: calc(100vh - 112px);
+    text-align: center;
+}
+#pixelGrade{
+    min-height: calc(100vh - 112px);
+}
+#pixelGradeBG{
+    background-color: #f5f7fa;
+    padding: 50px;
+}
+.grayColor{
+    color: #4D4D4D;
+}
+.greenColor{
+    color: #4CAF4F;
+}
+.clientCards{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in;
+}
+.clientCards:hover{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+#thirdPortion{
+    min-height: calc(100vh - 112px);
+}
